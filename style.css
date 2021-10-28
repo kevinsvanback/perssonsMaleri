@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arvo', sans-serif;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  width: 100%;
+}
+
+.container  {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Navbar */
+
+.navbar {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background-image: url(./img/painter.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar nav {
+  justify-content: flex-end;
+}
+
+.logo {
+  justify-content: flex-start;
+  font-size: 30px;
+}
+
+.logo img {
+  display: block;
+  width: 200px;
+}
+
+/* Showcase */
+
+.showcase {
+  margin: 20px 0;
+}
+
+/* Workflow logos */
+
+.workflow-logos{
+  text-align: center;
+}
+
+.workflow-logos img{
+  width: 130px;
+}
+
+.workflow-logos .grid-item {
+  align-self: center;
+}
+
+/* Contact */
+
+.contact-info {
+  text-align: center;
+  color: #333;
+}
+
+.contact-info h4, p {
+  margin: 5px 0;
+}
+
+/* Shape Divider */
+
+.custom-shape {
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape svg {
+  width: calc(111% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape .shape-fill {
+  fill: lightgray;
+}
+
+/* Footer */
+
+.footer {
+  background-color: lightgray;
+  display: block;
+}
+
+footer .container {
+  text-align: center;
+}
+
+footer .logo {
+  padding-bottom: 10px;
+}
+
+footer p {
+  font-size: 12px;
+}
