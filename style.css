@@ -24,7 +24,7 @@ img {
   width: 100%;
 }
 
-.container  {
+.container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 30px;
@@ -35,6 +35,7 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .grid {
@@ -48,7 +49,7 @@ img {
 .navbar {
   padding-top: 10px;
   margin-bottom: 20px;
-  background-image: url(./img/painter.jpeg);
+  background-image: url(./img/img1.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -75,13 +76,31 @@ img {
   margin: 20px 0;
 }
 
+.showcase ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.showcase li {
+  max-height: 100vh;
+  flex-grow: 1;
+}
+
+.showcase img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
 /* Workflow logos */
 
-.workflow-logos{
+.workflow-logos {
   text-align: center;
 }
 
-.workflow-logos img{
+.workflow-logos img {
   width: 130px;
 }
 
@@ -96,7 +115,8 @@ img {
   color: #333;
 }
 
-.contact-info h4, p {
+.contact-info h4,
+p {
   margin: 5px 0;
 }
 
