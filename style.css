@@ -152,6 +152,7 @@ a {
 
 .contact-info p {
   text-align: center;
+  word-wrap: break-word;
 }
 
 .custom-shape-divider-bottom-1696525717 {
