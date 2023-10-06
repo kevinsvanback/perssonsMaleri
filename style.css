@@ -154,6 +154,12 @@ a {
   word-break: break-word;
 }
 
+@media (max-width: 767px) {
+  .contact-info {
+    gap: 0;
+  }
+}
+
 .contact-info i {
   color: #000;
 }
